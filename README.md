@@ -1,13 +1,13 @@
 > **⚠️ ARCHIVED PROJECT**  
-> This project is archived and now part of my [Automation-Toolbox](https://github.com/sadmanhsakib/Automation-Toolbox) repository.
+> This project is archived and now part of my [automation-toolbox](https://github.com/sadmanhsakib/automation-toolbox) repository.
 
-# Recursive-Renamer
+# recursive-renamer
 
-**Recursive-Renamer** is a robust Python utility designed to automate the process of mass-renaming files across deeply nested directory structures. It streamlines file organization by performing bulk character replacements and enforcing consistent naming conventions (lowercasing) in a single pass.
+**recursive-renamer** is a robust Python utility designed to automate the process of mass-renaming files across deeply nested directory structures. It streamlines file organization by performing bulk character replacements and enforcing consistent naming conventions (lowercase) in a single pass.
 
 ## 🚀 Purpose
 
-Managing file names in large datasets or extensive project directories can be tedious and error-prone. **Recursive-Renamer** solves this by allowing users to traverse an entire directory tree and standardize filenames instantly. It is particularly useful for developers, data scientists, and system administrators who need to sanitize inputs or organize file systems.
+Managing file names in large datasets or extensive project directories can be tedious and error-prone. **recursive-renamer** solves this by allowing users to traverse an entire directory tree and standardize filenames instantly. It is particularly useful for developers, data scientists, and system administrators who need to sanitize inputs or organize file systems.
 
 ## 🌟 Key Features
 
@@ -26,7 +26,7 @@ You have a folder of images for a blog:
 - `Images/My Vacation/Beach Photo.JPG`
 - `Images/My Vacation/Sunset at the Pier.PNG`
 
-Using **Recursive-Renamer**, you can replace " " (space) with "-" (hyphen). The script will automatically lowercase the names as well, transforming them into web-safe URLs:
+Using **recursive-renamer**, you can replace " " (space) with "-" (hyphen). The script will automatically lowercase the names as well, transforming them into web-safe URLs:
 - `Images/My Vacation/beach-photo.jpg`
 - `Images/My Vacation/sunset-at-the-pier.png`
 
@@ -41,8 +41,8 @@ This ensures your assets are URL-friendly and consistent across all platforms.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/Recursive-Renamer.git
-   cd Recursive-Renamer
+   git clone https://github.com/yourusername/recursive-renamer.git
+   cd recursive-renamer
    ```
 
 2. **Install Dependencies**
